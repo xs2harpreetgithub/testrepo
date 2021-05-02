@@ -18,3 +18,24 @@ fatal: unable to access 'https://github.com/xs2harpreetgithub/testrepo.git/': Th
 git remote set-url origin https://xs2harpreetgithub:xs2github@github.com/xs2harpreetgithub/testrepo.git
 
 <git remote set-url origin https://username:password@github.com/username/testrepo.git>
+
+**Common Git Commands**
+-git checkout <branch_name>       change branch
+-git add .                        all files
+-git add <filename>
+-git commit -m "msg"
+-git push
+ 
+ create a new local feature branch
+ -git checkout -b <new_feature_branch>
+ or
+ -git branch <branch-name>
+ Push local changes to remote
+ -git push origin <feature branch name>
+ 
+ Removing branch locally
+ -git branch -d <branch-name>
+ 
+ -D for force fully (if it's not fully merged)
+ 
+ 
